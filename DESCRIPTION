@@ -1,0 +1,14 @@
+Package: FunSPU
+Date: 2017-12-19
+Type: Package
+Title: A Versatile And Adaptive Multiple Functional Annotations-based Association Test 
+Version: 0.1.0
+Author: Yiding Ma and Peng Wei
+Maintainer: Yiding Ma <YMa9@mdanderson.org>
+Description: R codes for the adaptive Sum of Powered Score tests incorporating functional annotations ('FunSPU'), inverse variance weighted FunSPU tests ('FunSPUw'), minimum p-value and Fisher approaches ('aSPUmin', 'aSPUwmin') to combine the p-values. The tests can be used with genetic and other data sets with covariates. The response variable is binary or quantitative.
+Imports: aSPU
+Depends: R(>= 3.2.5)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
